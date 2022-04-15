@@ -1,4 +1,4 @@
-# mapreduce
+# MapReduce
 
 This project implemented Map() and Reduce() function using Java.
 
