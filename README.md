@@ -1,6 +1,6 @@
 # MapReduce
 
-This project implemented Map() and Reduce() function using Java.
+This project implemented Map() and Reduce() functions using Java.
 
 Our model consists of two MapReduce operations, which means it includes two map functions and two reduce functions. (The model is based upon the model which introduced in section 2.3.9 of the book “Mining of Massive Datasets”. ) To compute the matrix multiplication in map and reduce fashion, we divide the computation process into two phases, each phase is handled by a single distinct MapReduce operation. To concrete our discussion, let A[i][j] denote the first matrix, let B[j][k] denote the second one. We need to compute their product matrix C[i][k]. Specifically, we have this formula:
 
